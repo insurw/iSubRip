@@ -26,6 +26,8 @@ format = "vtt"
 # A list of iTunes language codes to download.
 # An empty array (like the one currently being used) will result in downloading all of the available subtitles.
 # Example: ["en-US", "fr-FR", "he"]
+# NOTE: Subtitles can have two different tags, e.g. either "se" or "sv-SE". To make sure to always rip your languages add both tags to the settings.
+# Example: ["en", "en-US", "sv", "sv-SE", "da", "da-DK", "no", "no-NO", "fi", "fi-FI"]
 languages = []
 
 # Treat subtitles from different iTunes IDs as if they were scraped from the same one.
